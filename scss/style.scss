@@ -1,0 +1,26 @@
+@import 'component/general';
+@import 'component/colors';
+@import 'component/backgrounds';
+@import 'component/inputs';
+@import 'component/grid';
+@import 'component/width';
+@import 'component/buttons';
+@import 'component/margin';
+@import 'component/padding';
+@import 'component/font';
+@import 'component/table';
+@import 'component/borders';
+
+
+*{box-sizing: border-box;}
+
+/*
+
+Phone Width: Max 580px
+
+Tablet Width: Max 990px
+
+Desktop width: Min 1280px
+
+
+*/
