@@ -9,6 +9,7 @@
                         
                 }
 .table thead th{border: 0px;
+        font-weight: bolder;
         padding: 0.8rem;}
 
 
@@ -22,3 +23,64 @@
 
 .table-platinum tbody tr:hover{background-color: $platinum;
                                                 transition: all 0.3s;}
+
+
+.table-red{background-color: white;}
+
+.table-red thead{background-color: $red;
+                        color: $white;
+                        border-bottom: $red-hover 1px solid;}
+
+.table-red tbody tr:hover{background-color: $red;
+                        color: $white;
+                        transition: all 0.3s;}
+
+.table-blue{background-color: white;}
+
+.table-blue thead{background-color: $blue;
+                        color: $white;
+                        border-bottom: $blue-hover 1px solid;}
+
+.table-blue tbody tr:hover{background-color: $blue;
+                        color: $white;
+                        transition: all 0.3s;}
+
+.table-green{background-color: white;}
+
+.table-green thead{background-color: $green;
+                        color: $white;
+                        border-bottom: $green-hover 1px solid;}
+
+.table-green tbody tr:hover{background-color: $green;
+                        color: $white;
+                        transition: all 0.3s;}
+
+.table-yellow{background-color: white;}
+
+.table-yellow thead{background-color: $yellow;
+                        color: $dark;
+                        border-bottom: $yellow-hover 1px solid;}
+
+.table-yellow tbody tr:hover{background-color: $yellow;
+                        color: $dark;
+                        transition: all 0.3s;}
+
+.table-dark{background-color: white;}
+
+.table-dark thead{background-color: $dark;
+                        color: $white;
+                        border-bottom: $dark-hover 1px solid;}
+
+.table-dark tbody tr:hover{background-color: $dark;
+                        color: $white;
+                        transition: all 0.3s;}
+
+.table-orange{background-color: white;}
+
+.table-orange thead{background-color: $orange;
+                        color: $white;
+                        border-bottom: $orange-hover 1px solid;}
+
+.table-orange tbody tr:hover{background-color: $orange;
+                        color: $white;
+                        transition: all 0.3s;}

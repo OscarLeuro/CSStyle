@@ -34,11 +34,41 @@
                }  
 
 
-.border-platinum{border-color: $platinum;}
 
+//Border Colors
+
+
+.border-platinum{border-color: $platinum;}
+.border-red{border-color: $red;}
+.border-blue{border-color: $blue;}
+.border-dark{border-color: $dark;}
+.border-yellow{border-color: $yellow;}
+.border-disable{border-color: $disable;}
+.border-green{border-color: $green;}
+.border-orange{border-color: $orange;}
+
+
+
+
+
+//Border Radius
 
 .border-radius-1{border-radius: 0.5rem;}
 
 .border-radius-2{border-radius: 0.8rem;}
 
 .border-radius-3{border-radius: 1rem;}
+
+
+.border-radius-top-1{border-radius: 0.5rem 0.5rem 0rem 0rem;}
+
+.border-radius-top-2{border-radius: 0.8rem 0.8rem 0rem 0rem;}
+
+.border-radius-top-3{border-radius: 1rem 1rem 0rem 0rem;}
+
+
+.border-radius-bottom-1{border-radius: 0rem 0rem 0.5rem 0.5rem;}
+
+.border-radius-bottom-2{border-radius: 0rem 0rem 0.5rem 0.5rem;}
+
+.border-radius-bottom-3{border-radius: 0m 0rem 1rem 1rem;}

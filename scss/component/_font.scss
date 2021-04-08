@@ -7,20 +7,41 @@
 .text-orange{color: $orange;}
 .text-dark{color: $dark;}
 .text-white{color: white;}
+.text-blue{color: $blue;}
+.text-red{color: $red;}
+.text-yellow{color: $yellow;}
+.text-grey{color: $grey;}
 
+.text-big{font-weight: 800;}
 .text-bolder{font-weight: bolder;}
 .text-italic{font-style: italic ;}
 .text-line{text-decoration: line-through;}
 
 
+/*Links*/
+
 
 .link-orange{color: $orange;
+    transition: all 0.3s
             }
 
 .link-orange:hover{color: $orange-hover;}
 
+.link-blue{color: $blue;
+    transition: all 0.3s
+}
+
+.link-blue:hover{color: $blue-hover;}
+
+.link-red{color: $red;
+    transition: all 0.3s
+}
+
+.link-red:hover{color: $red-hover;}
+
 
 .link-dark{color: $dark;
+    transition: all 0.3s
 }
 
 .link-dark:hover{color: $dark-hover;}
