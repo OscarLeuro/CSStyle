@@ -10,7 +10,7 @@
                     
                     }
 
-.input-group input[type=text], textarea, select, input[type=date], input[type=number]{border: solid 2px $grey;
+.input-group input[type=text], textarea, select, input[type=date], input[type=number], input[type=password] {border: solid 2px $grey;
                                     padding: 0.5rem;
                                     outline: none;
                                     color: $dark;
